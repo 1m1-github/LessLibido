@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quieter — a hypnosis recording for an intrusive sex drive</title>
+<meta name="description" content="A 34-minute hypnosis recording for adults whose sex drive takes up more room in their life than they want it to. No prescription, no drugs. Instant download.">
+<meta property="og:title" content="Quieter">
+<meta property="og:description" content="A hypnosis recording for adults whose sex drive takes up more room than they want it to.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ground:#1B2027;
+    --lift:#232A33;
+    --ink:#E4E6E4;
+    --mute:#98A1AA;
+    --lamp:#C8A25A;
+    --rule:rgba(228,230,228,.13);
+    --measure:34rem;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:62rem;margin:0 auto;padding:0 1.75rem}
+  section{padding:5.5rem 0;border-top:1px solid var(--rule)}
+  section:first-of-type{border-top:0}
+
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--mute);margin:0 0 2rem;
+  }
+  h1,h2,h3{font-family:"Newsreader",Georgia,serif;font-weight:300;letter-spacing:-.01em;margin:0}
+  h1{font-size:clamp(3rem,9vw,5.75rem);line-height:.98}
+  h2{font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.15;margin-bottom:1.5rem;max-width:22ch}
+  h3{font-size:1.25rem;line-height:1.3;margin-bottom:.5rem}
+  p{max-width:var(--measure)}
+  em{font-style:italic;color:var(--mute)}
+  a{color:var(--ink)}
+
+  /* ---- masthead ---- */
+  .top{display:flex;justify-content:space-between;align-items:baseline;padding:2rem 0 0;gap:1rem}
+  .mark{font-family:"Newsreader",serif;font-size:1.2rem;letter-spacing:.02em}
+  .badge{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.14em;color:var(--mute)}
+
+  /* ---- hero ---- */
+  .hero{padding-top:4rem;padding-bottom:3rem}
+  .hero .lede{
+    font-family:"Newsreader",serif;font-size:clamp(1.15rem,2.4vw,1.45rem);
+    line-height:1.5;color:var(--mute);margin:2rem 0 0;max-width:30rem;
+  }
+
+  /* ---- signature: the decaying waveform ---- */
+  .wave{display:flex;align-items:center;gap:2px;height:130px;margin:4rem 0 1rem;width:100%}
+  .wave i{
+    flex:1 1 0;background:var(--lamp);opacity:.85;border-radius:1px;
+    transform:scaleY(0);transform-origin:center;
+    animation:rise .5s cubic-bezier(.2,.7,.3,1) forwards;
+  }
+  @keyframes rise{to{transform:scaleY(1)}}
+  .wave-key{
+    display:flex;justify-content:space-between;
+    font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.13em;
+    text-transform:uppercase;color:var(--mute);border-top:1px solid var(--rule);padding-top:.7rem;
+  }
+
+  /* ---- cases ---- */
+  .cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:2.5rem 2.5rem;margin-top:1rem}
+  .cases p{font-size:.96rem;color:var(--mute);margin:0}
+  .cases h3{color:var(--ink)}
+
+  /* ---- options table ---- */
+  .opt{border-top:1px solid var(--rule);padding:1.75rem 0;display:grid;grid-template-columns:9rem 1fr;gap:1.5rem}
+  .opt:last-of-type{border-bottom:1px solid var(--rule)}
+  .opt-name{font-family:"IBM Plex Mono",monospace;font-size:.75rem;letter-spacing:.13em;text-transform:uppercase;color:var(--mute);padding-top:.35rem}
+  .opt p{margin:0;font-size:.96rem}
+  .opt.this .opt-name{color:var(--lamp)}
+
+  /* ---- spec ---- */
+  .spec{border-left:2px solid var(--lamp);padding-left:1.5rem;margin:0;font-family:"IBM Plex Mono",monospace;font-size:.85rem;line-height:2.1;color:var(--mute)}
+  .spec b{color:var(--ink);font-weight:500}
+
+  /* ---- buy ---- */
+  .buy{background:var(--lift);border-radius:3px;padding:3rem 2.5rem;margin-top:1rem}
+  .price{font-family:"Newsreader",serif;font-size:3.25rem;line-height:1;margin:0}
+  .price span{font-family:"IBM Plex Mono",monospace;font-size:.8rem;letter-spacing:.12em;color:var(--mute);margin-left:.75rem;vertical-align:middle}
+  .cta{
+    display:inline-block;margin:2rem 0 1.25rem;padding:1.05rem 3rem;
+    background:var(--lamp);color:#1B2027;text-decoration:none;
+    font-family:"IBM Plex Mono",monospace;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;
+    border-radius:2px;transition:background .18s ease;
+  }
+  .cta:hover,.cta:focus-visible{background:#DDB771}
+  .fineprint{font-size:.85rem;color:var(--mute);margin:0;max-width:30rem}
+
+  /* ---- faq ---- */
+  details{border-top:1px solid var(--rule);padding:1.25rem 0}
+  details:last-of-type{border-bottom:1px solid var(--rule)}
+  summary{cursor:pointer;font-family:"Newsreader",serif;font-size:1.15rem;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";float:right;color:var(--lamp);font-family:"IBM Plex Mono",monospace}
+  details[open] summary::after{content:"–"}
+  details p{margin:1rem 0 0;color:var(--mute);font-size:.96rem}
+
+  footer{padding:4rem 0 5rem;border-top:1px solid var(--rule);color:var(--mute);font-size:.83rem}
+  footer p{max-width:44rem;margin:0 0 1rem}
+
+  :focus-visible{outline:2px solid var(--lamp);outline-offset:3px}
+  @media (prefers-reduced-motion:reduce){
+    .wave i{animation:none;transform:scaleY(1)}
+    *{transition:none!important}
+  }
+  @media (max-width:640px){
+    .opt{grid-template-columns:1fr;gap:.5rem}
+    .buy{padding:2rem 1.5rem}
+    .wave{height:90px}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <div class="top">
+    <div class="mark">Quieter</div>
+    <div class="badge">18+ · Instant download</div>
+  </div>
+
+  <section class="hero">
+    <h1>Turn it<br>down.</h1>
+    <p class="lede">A 34-minute hypnosis recording for adults whose sex drive takes up more room in their life than they want it to.</p>
+
+    <div class="wave" id="wave" aria-hidden="true"></div>
+    <div class="wave-key">
+      <span>Before</span>
+      <span>Three weeks of nightly listening</span>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Who this is for</p>
+    <h2>A high sex drive is not a personality. Sometimes it's just noise.</h2>
+    <div class="cases">
+      <div>
+        <h3>It costs you hours</h3>
+        <p>Time that was supposed to go to work, training, study or sleep gets quietly rerouted. Not once — as a standing tax on every day.</p>
+      </div>
+      <div>
+        <h3>It picks the wrong moments</h3>
+        <p>Meetings, classrooms, gyms, conversations with people you have no interest in. Attention goes where you didn't send it.</p>
+      </div>
+      <div>
+        <h3>It's out of step with your partner</h3>
+        <p>Mismatched drive puts one person permanently in the role of asking and the other permanently in the role of declining. Both roles corrode.</p>
+      </div>
+      <div>
+        <h3>You've chosen not to act on it</h3>
+        <p>Celibacy, a period of focus, recovery from a compulsion, a faith commitment, or simply a decision you've made. The drive didn't get the memo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">The options, honestly</p>
+    <h2>There are three doors. Two of them are worse than people admit.</h2>
+
+    <div class="opt">
+      <div class="opt-name">Willpower</div>
+      <p>Free, available now, and the thing you have already tried. Suppression works by tightening attention around the exact thought you want less of. Most people can hold it for a while and then can't.</p>
+    </div>
+
+    <div class="opt">
+      <div class="opt-name">Medication</div>
+      <p>Anti-androgens and SSRIs genuinely lower libido — that's why SSRIs are prescribed off-label for it. They also work systemically: mood, energy, sleep, bone density, and in some cases fertility come along for the ride. It's a real option, prescribed by real doctors, for people who need it. It is also, for most people reading this, an extremely large hammer for the job. <em>Talk to a doctor about this one, not to a website.</em></p>
+    </div>
+
+    <div class="opt this">
+      <div class="opt-name">This recording</div>
+      <p>Hypnosis works on attention, not chemistry. Nothing is added to your body and nothing is taken out of it. You listen with headphones, you relax, and the suggestions work on the part of the process that happens before the urge arrives — what your attention reaches for by default when it's idle. Stop listening and the effect fades. That reversibility is the point.</p>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">What you get</p>
+    <h2>One file. No app, no subscription, no account.</h2>
+    <p class="spec">
+      <b>34 minutes</b> · single continuous session<br>
+      <b>MP3, 320 kbps</b> · works on anything<br>
+      <b>Headphones</b> · recommended, not required<br>
+      <b>Nightly for 3 weeks</b> · then as needed<br>
+      <b>Yours to keep</b> · no expiry, no DRM
+    </p>
+  </section>
+
+  <section>
+    <div class="buy">
+      <p class="price">$29 <span>one time</span></p>
+      <p class="fineprint">Delivered to your inbox the moment you pay. Enter the email address you actually want it sent to.</p>
+      <!-- Replace with your Gumroad / Payhip product URL -->
+      <a class="cta" href="#" id="buy">Buy and download</a>
+      <p class="fineprint">Card statements show the payment processor, not the product name. Your email is used to deliver the file and nothing else — no list, no follow-ups.</p>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Questions people actually ask</p>
+
+    <details>
+      <summary>Will this make me unable to enjoy sex?</summary>
+      <p>No. The recording targets frequency and intrusiveness of urges, not the capacity for arousal or pleasure. The goal is that sex stops being something that interrupts you and goes back to being something you choose.</p>
+    </details>
+
+    <details>
+      <summary>Is it permanent?</summary>
+      <p>No, and it isn't designed to be. Suggestions fade without reinforcement. If you stop listening, your baseline returns over a few weeks. If you want the effect to hold, you keep a maintenance listen every week or two.</p>
+    </details>
+
+    <details>
+      <summary>Does hypnosis actually work?</summary>
+      <p>Hypnosis has a decent evidence base for pain, anxiety, and habit change, and a suggestible minority of people respond to it strongly. There is no clinical trial evidence for hypnosis specifically reducing libido — I'm not going to pretend otherwise. What I can tell you is what it is: a structured relaxation and suggestion session aimed at where your attention goes by default. Some people are highly responsive to that. Some aren't.</p>
+    </details>
+
+    <details>
+      <summary>Can it do anything I don't want?</summary>
+      <p>No. Hypnosis is not control — you can stop the recording, ignore a suggestion, or fall asleep through the whole thing. Suggestions that conflict with what you actually want don't take.</p>
+    </details>
+
+    <details>
+      <summary>Is this a kink product?</summary>
+      <p>No. There's a large erotic hypnosis scene that makes recordings on adjacent themes for arousal. This isn't that. There is no sexual content in the audio.</p>
+    </details>
+
+    <details>
+      <summary>What if it does nothing for me?</summary>
+      <p>Email the address below within 30 days and you get your money back. You don't have to explain why.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p><b>This is not medical treatment.</b> It is a self-help audio recording. It does not diagnose, treat, or cure any condition, and it is not a substitute for care from a doctor or therapist.</p>
+    <p>If your sex drive dropped suddenly on its own, see a doctor — that can have a medical cause worth finding. If sexual urges are compulsive enough that they're damaging your work, relationships or finances, that's a treatable condition and a therapist will help you more than an MP3 will. If your urges involve anyone who cannot consent, stop and get professional help today; this recording is not the right tool and never will be.</p>
+    <p>Adults only. Do not listen while driving or operating machinery.</p>
+    <p>hello@yourdomain.com · © 2026 Quieter</p>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var wave = document.getElementById('wave');
+  if(!wave) return;
+  var N = 84, frag = document.createDocumentFragment();
+  for(var i=0;i<N;i++){
+    var t = i/(N-1);
+    // amplitude decays exponentially: loud and jagged -> quiet and even
+    var decay = Math.exp(-3.2*t);
+    var jitter = (Math.sin(i*2.7)*0.5 + Math.sin(i*1.13)*0.5);
+    var h = 6 + (88 * decay * (0.55 + 0.45*Math.abs(jitter)));
+    var b = document.createElement('i');
+    b.style.height = h.toFixed(1) + '%';
+    b.style.animationDelay = (i*11) + 'ms';
+    b.style.opacity = (0.9 - 0.35*t).toFixed(2);
+    frag.appendChild(b);
+  }
+  wave.appendChild(frag);
+})();
+</script>
+
+</body>
+</html>
